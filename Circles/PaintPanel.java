@@ -16,8 +16,8 @@ class PaintPanel extends JPanel {
         super.paintComponent(g);
         Random random = new Random();
         g.setColor(Color.BLACK);
-        // draw 5 random circles
-        int count = 1000000;
+        // Рисуем 10 рандомных кругов
+        int count = 10;
         for (int i = 0; i < count; i++) {
             g.drawOval(random.nextInt(250), random.nextInt(250),
                     random.nextInt(250), random.nextInt(250));
