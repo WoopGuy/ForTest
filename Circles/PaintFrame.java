@@ -21,7 +21,7 @@ public class PaintFrame extends JFrame {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                // drawButton is fired, repaint the paintPanel
+                    
                 paintPanel.repaint();
             }
         });
