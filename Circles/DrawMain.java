@@ -9,7 +9,7 @@ public class DrawMain {
 
         JFrame frame = new PaintFrame();
         frame.setDefaultCloseOperation(PaintFrame.EXIT_ON_CLOSE);
-        frame.setSize(600, 500);
+        frame.setSize(900, 800);
         frame.setVisible(true);
 
     }
